@@ -7,7 +7,7 @@ app.set('view engine', 'ejs');
 app.use(express.urlencoded({extended: true}));
 app.use(express.static('public'));
 
-
+// Eliis proovib saada Githubi tööle. :) 
 
 app.post('/wish', async (req, res) => { 
     let userData = req.body.userWish.trim(); 
